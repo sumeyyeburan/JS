@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(130, 31, 144);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    background-color:azure;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(7, 1, 1, 0.988);
+    padding: 30px;
+}
+
+h1{
+    color: rgb(98, 19, 108);
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.guess h2{
+    color: #008b8b; 
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.number input{
+    width: 80%;
+    padding: 10px;
+    margin: 15px;
+    border: 2px dashed rgb(98, 19, 108);
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.buton button{
+    background-color: rgb(98, 19, 108);
+    color:whitesmoke;
+    border:none;
+    padding: 15px 20px;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buton button:hover{
+    background-color: rgb(17, 46, 113);
+}
+
+.end p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(132, 97, 7);
+    font-weight: bold;
+}
